@@ -10,9 +10,13 @@ namespace Addition
     {
         public void Add()
         {
-            int a = 10,b=20,c;
+            int a,b,c,d;
+            Console.Write("Enter First Numebr = ");
+            a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter Second Numebr = ");
+            b = Convert.ToInt32(Console.ReadLine());
             c = a + b;
-            Console.WriteLine(c);
+            Console.WriteLine("Addition is = "+c);
         }
         static void Main(string[] args)
         {
